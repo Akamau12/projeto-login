@@ -14,7 +14,9 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    
+    
     height: 100vh;
     width: 100vw;
 }
@@ -34,10 +36,17 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    transition: width .3s, height .3s;
+    /* duração da transição */
+    transition-timing-function: ease; 
+    /* velocidade da transição */
+    
 }
+
 
 section#login > div#imagem {
    background: #5f2c82 url(../imagens/imagem-projeto.jpg) no-repeat;
