@@ -69,7 +69,6 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.9em;
-
 }
 
 div#formulario > h1 {
@@ -116,5 +115,13 @@ label {
     color: #5f2c82;
     font-size: 0.9em;
     margin-left: 5px
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #5f2c82;
 }
     
